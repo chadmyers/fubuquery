@@ -1,0 +1,39 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "__Build_Utilities", "__Build_Utilities", "{7AC4D197-535A-4686-8E21-18257B2ADB3A}"
+	ProjectSection(SolutionItems) = preProject
+		..\.gitignore = ..\.gitignore
+		..\InstallGems.bat = ..\InstallGems.bat
+		..\license.txt = ..\license.txt
+		..\rakefile.rb = ..\rakefile.rb
+		..\readme.markdown = ..\readme.markdown
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FubuQuery", "FubuQuery.Core\FubuQuery.csproj", "{5D49CFC3-B376-40A7-8AA4-9E555DB0F3F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FubuQuery.Test", "FubuQuery.Test\FubuQuery.Test.csproj", "{A4ED82E6-5C0F-4799-BB67-0A0891E9FABB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Retail|Any CPU = Retail|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D49CFC3-B376-40A7-8AA4-9E555DB0F3F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D49CFC3-B376-40A7-8AA4-9E555DB0F3F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D49CFC3-B376-40A7-8AA4-9E555DB0F3F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D49CFC3-B376-40A7-8AA4-9E555DB0F3F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D49CFC3-B376-40A7-8AA4-9E555DB0F3F8}.Retail|Any CPU.ActiveCfg = Release|Any CPU
+		{5D49CFC3-B376-40A7-8AA4-9E555DB0F3F8}.Retail|Any CPU.Build.0 = Release|Any CPU
+		{A4ED82E6-5C0F-4799-BB67-0A0891E9FABB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4ED82E6-5C0F-4799-BB67-0A0891E9FABB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4ED82E6-5C0F-4799-BB67-0A0891E9FABB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4ED82E6-5C0F-4799-BB67-0A0891E9FABB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4ED82E6-5C0F-4799-BB67-0A0891E9FABB}.Retail|Any CPU.ActiveCfg = Release|Any CPU
+		{A4ED82E6-5C0F-4799-BB67-0A0891E9FABB}.Retail|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
